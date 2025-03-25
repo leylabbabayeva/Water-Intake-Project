@@ -9,11 +9,11 @@ function increment() {
     let image = document.getElementById("water-img");
 
     if (count < 4) {
-        image.src = "low_water.png";  // Image for less than 4 glasses
+        image.src = "img/low_water.png";  // Image for less than 4 glasses
     } else if (count >= 4 && count <= 6) {
-        image.src = "middle_water.png";  // Image for 4-6 glasses
+        image.src = "img/middle_water.png";  // Image for 4-6 glasses
     } else {
-        image.src = "high_water.png";  // Image for more than 7 glasses
+        image.src = "img/high_water.png";  // Image for more than 7 glasses
     }
 }
 
@@ -23,5 +23,5 @@ function save() {
     countEl.textContent = 0
     count = 0
     let image = document.getElementById("water-img");
-    image.src = "low_water.png";
+    image.src = "img/low_water.png";
 }
