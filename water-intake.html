@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Water Intake App</title>
+        <link rel="stylesheet" href="water-intake.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>How many glasses of water did you drink today?🥤</h1>
+            <img id="water-img" src="low_water.png">
+            <h2 id="count-el">0</h2>
+            <button id="increment-btn" onclick="increment()">Add glass of water</button>
+            <button id="save-btn" onclick="save()">Save</button>
+            <p id="save-el">Glasses of water drank each day: </p>
+
+            <script src="water-intake.js"></script>
+        </div>
+    </body>
+</html>
